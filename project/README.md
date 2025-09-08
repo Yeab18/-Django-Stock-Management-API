@@ -1,33 +1,32 @@
-Stock Management API
+# 📦 Stock Management API
 
-A Stock Management System API built with Django and Django REST Framework (DRF) to handle products, inventory, suppliers, and stock transactions.
+A **Django-based Stock Management System API** for managing products, suppliers, stock levels, and transactions. The API includes authentication, CRUD operations for inventory, and comprehensive documentation.
 
-Features
+---
 
-✅ User Authentication (JWT-based)
+## 🎥 [▶ Click Here to Watch the Video Demo](https://www.loom.com/share/825b225566124e2a816db7d195ef5a9d?sid=7f86221f-f734-4c9b-81fc-0a3a9074dcbb)
 
-✅ Manage Products (CRUD)
+---
 
-✅ Manage Stock (Add, Update, Delete)
+## ✅ Features
 
-✅ Supplier Management
+- ✅ **JWT Authentication** (Login, Register, Refresh Token)
+- ✅ **Product Management** (CRUD)
+- ✅ **Stock Tracking** (Add, Update, Remove)
+- ✅ **Supplier Management**
+- ✅ **Stock Transactions** (In/Out)
+- ✅ **API Documentation via Swagger & Redoc**
+- ✅ **Pagination, Filtering & Search**
+- ✅ **Role-Based Access Control (Admin/Staff)**
 
-✅ Stock Transactions (In/Out)
+---
 
-✅ API Documentation (Swagger / DRF-YASG)
+## 🛠️ Tech Stack
 
-✅ Pagination, Filtering, and Search
+- **Backend:** Django, Django REST Framework
+- **Database:** PostgreSQL (or SQLite for development)
+- **Authentication:** JWT (using `djangorestframework-simplejwt`)
+- **API Docs:** Swagger (`drf-yasg`) / Redoc
+- **Environment:** Python 3.x, Django 4.x+
 
-✅ Role-Based Access Control (Admin / Staff)
-
-Tech Stack
-
-Backend: Django, Django REST Framework
-
-Database: PostgreSQL (or SQLite for development)
-
-Authentication: JWT (using djangorestframework-simplejwt)
-
-API Docs: Swagger (via drf-yasg) or ReDoc
-
-Environment: Python 3.x, Django 4.x+
+---
